@@ -1,5 +1,5 @@
 # Use-googlescript-to-scrape-data
-An example of crawl stock price form [TWSE](http://www.twse.com.tw/zh/) and use google sheet as a mini database  
+A practice to crawl stock price form [TWSE](http://www.twse.com.tw/zh/) and use google sheet as a mini database  
 
 [Google Apps Script](https://developers.google.com/apps-script/) is a useful tool to extend G-Suite, base on javascript language  
 
@@ -8,7 +8,7 @@ An example of crawl stock price form [TWSE](http://www.twse.com.tw/zh/) and use 
 - Need header to access the json file in the [web](http://mis.twse.com.tw/stock/fibest.jsp?stock=2330) (example by TSMC)
 - Need to scrape data frequently, since the TWSE update the price and volume every 5 sec  
 #### Result and explanations
-- Set cell 'A2' as our target stock, use function 'update' can get the lastest price and volume
+- Set cell 'A2' as our target stock, use function 'update' can get the latest price and volume
 <br></br>
 ![update](https://github.com/jimlin0722/Use-googlescript-to-scrape-data/blob/master/images/update.gif)
 <br></br>
