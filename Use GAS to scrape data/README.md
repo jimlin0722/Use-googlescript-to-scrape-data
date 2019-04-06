@@ -10,13 +10,13 @@ A practice to crawl stock price form [TWSE](http://www.twse.com.tw/zh/) and use 
 #### Result and explanations
 - Set cell 'A2' as our target stock, use function 'update' can get the latest price and volume
 <br></br>
-![update](https://github.com/jimlin0722/Use-googlescript-to-scrape-data/blob/master/images/update.gif)
+![update](images/update.gif)
 <br></br>
 - Use functions 'createTriggers' and 'deleteTrigger' to contral the scraper. Make function 'update' runs every 1 minute during trading hours(9:00 - 13:30)
 <br></br>
-![data](https://github.com/jimlin0722/Use-googlescript-to-scrape-data/blob/master/images/data.gif)
+![data](images/data.gif)
 <br></br>
-![graph](https://github.com/jimlin0722/Use-googlescript-to-scrape-data/blob/master/images/graph.png)
+![graph](images/graph.png)
 <br></br>
 - Set function 'clean_table' run every day to delete the data out of trading hours
 
